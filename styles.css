@@ -1,6 +1,10 @@
 .wrapper {
   display: flex;
+  /*if flex-direction is column,main axis and cross axis are changed each other*/
+  flex-direction:  row;
+  /*Main Axis*/
   justify-content: space-around; 
+  /*Cross Axis*/
   align-items: center;
   height: 100vh;
 }
