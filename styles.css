@@ -1,17 +1,20 @@
-.wrapper {
+.father {
   display: flex;
-  /*if flex-direction is column,main axis and cross axis are changed each other*/
-  flex-direction:  row;
-  /*Main Axis*/
   justify-content: space-around; 
-  /*Cross Axis*/
-  align-items: center;
   height: 100vh;
 }
 
-.box {
+.child {
   width: 200px;
   height: 200px;
   background: peru;
   color: white;
+}
+
+.child:nth-child(1) {
+  order: 2;
+}
+
+.child:nth-child(3) {
+  order: 1
 }
