@@ -40,8 +40,8 @@
 ### Keywords & Functions:
 - [x] repeat
 - [x] fr
-- [] min-content
-- [ ] max-content
+- [x] min-content
+- [x] max-content
 - [x] minmax
 - [x] auto-fit
 - [x] auto-fill
