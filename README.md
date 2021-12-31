@@ -40,9 +40,9 @@
 ### Keywords & Functions:
 - [x] repeat
 - [x] fr
-- [ ] min-content
+- [] min-content
 - [ ] max-content
-- [ ] minmax
+- [x] minmax
 - [ ] auto-fit
 - [ ] auto-fill
 ## SCSS:
